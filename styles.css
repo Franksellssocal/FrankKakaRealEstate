@@ -6,7 +6,7 @@ body {
 }
 
 .hero {
-    background-image: url('hero-bg.jpg'); /* Make sure this image is in the root directory */
+    background-image: url('hero-bg.jpg'); /* Ensure this image is in the root directory */
     background-size: cover;
     background-position: center;
     color: white;
@@ -56,4 +56,29 @@ body {
     border-radius: 5px;
 }
 
-.qu
+.quick-links {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.quick-links .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-info {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
