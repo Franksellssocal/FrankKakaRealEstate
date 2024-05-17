@@ -7,20 +7,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="hero">
+        <img src="logo.png" alt="Frank Kaka Real Estate">
         <h1>Contact Us</h1>
     </header>
-    <section>
-        <form action="submit_form.php" method="post">
+
+    <section class="content">
+        <h2>Contact Information</h2>
+        <p>If you have any questions or would like to schedule a consultation, please feel free to reach out. We are here to assist you with all your real estate needs.</p>
+        
+        <form class="contact-form">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
+            
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
+            
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
-            <button type="submit">Submit</button>
+            
+            <button type="submit" class="btn">Send Message</button>
         </form>
     </section>
+
     <footer class="contact-info">
-        <p>Phone: (123) 456-7890</p>
-        <p>Email
+        <p>Phone: (858) 257-8874</p>
+        <p>Email: Franksellssocal@gmail.com</p>
+        <p>DRE #02198767</p>
+        <p>Broker: IQ Realty & Lending</p>
+        <p>Address: 360 West Lexington Ave, Suite 100, El Cajon, CA 92020</p>
+    </footer>
+</body>
+</html>
