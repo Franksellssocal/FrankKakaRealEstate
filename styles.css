@@ -6,7 +6,7 @@ body {
 }
 
 .hero {
-    background-image: url('hero-bg.jpg'); /* Make sure this image is in the root directory */
+    background-image: url('hero-bg.jpg');
     background-size: cover;
     background-position: center;
     color: white;
