@@ -45,4 +45,40 @@ body {
 }
 
 .featured-listings .property {
-    bor
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.featured-listings .property img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.quick-links {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.quick-links .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-info {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
